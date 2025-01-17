@@ -9,6 +9,7 @@ using BrainstormSessions.Core.Model;
 using log4net.Appender;
 using log4net.Config;
 using log4net.Core;
+using Microsoft.Extensions.Logging;
 using Moq;
 using Xunit;
 
@@ -17,10 +18,17 @@ namespace BrainstormSessions.Test.UnitTests
     public class LoggingTests : IDisposable
     {
         private readonly MemoryAppender _appender;
+        private readonly Mock<ILogger<HomeController>> _mockLoggerHomeController;
+        private readonly Mock<ILogger<SessionController>> _mockLoggerSessionController;
+        private readonly Mock<ILogger<IdeasController>> _mockLoggerIdeasController;
 
         public LoggingTests()
         {
             _appender = new MemoryAppender();
+            _mockLoggerHomeController = new Mock<ILogger<HomeController>>();
+            _mockLoggerSessionController = new Mock<ILogger<SessionController>>();
+            _mockLoggerIdeasController = new Mock<ILogger<IdeasController>>();
+
             BasicConfigurator.Configure(_appender);
         }
 
@@ -36,7 +44,7 @@ namespace BrainstormSessions.Test.UnitTests
             var mockRepo = new Mock<IBrainstormSessionRepository>();
             mockRepo.Setup(repo => repo.ListAsync())
                 .ReturnsAsync(GetTestSessions());
-            var controller = new HomeController(mockRepo.Object);
+            var controller = new HomeController(mockRepo.Object, _mockLoggerHomeController.Object);
 
             // Act
             var result = await controller.Index();
@@ -53,7 +61,7 @@ namespace BrainstormSessions.Test.UnitTests
             var mockRepo = new Mock<IBrainstormSessionRepository>();
             mockRepo.Setup(repo => repo.ListAsync())
                 .ReturnsAsync(GetTestSessions());
-            var controller = new HomeController(mockRepo.Object);
+            var controller = new HomeController(mockRepo.Object, _mockLoggerHomeController.Object);
             controller.ModelState.AddModelError("SessionName", "Required");
             var newSession = new HomeController.NewSessionModel();
 
@@ -70,7 +78,7 @@ namespace BrainstormSessions.Test.UnitTests
         {
             // Arrange & Act
             var mockRepo = new Mock<IBrainstormSessionRepository>();
-            var controller = new IdeasController(mockRepo.Object);
+            var controller = new IdeasController(mockRepo.Object, _mockLoggerIdeasController.Object);
             controller.ModelState.AddModelError("error", "some error");
 
             // Act
@@ -90,7 +98,7 @@ namespace BrainstormSessions.Test.UnitTests
             mockRepo.Setup(repo => repo.GetByIdAsync(testSessionId))
                 .ReturnsAsync(GetTestSessions().FirstOrDefault(
                     s => s.Id == testSessionId));
-            var controller = new SessionController(mockRepo.Object);
+            var controller = new SessionController(mockRepo.Object, _mockLoggerSessionController.Object);
 
             // Act
             var result = await controller.Index(testSessionId);

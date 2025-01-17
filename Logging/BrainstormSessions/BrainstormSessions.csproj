@@ -6,6 +6,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logs\" />
   </ItemGroup>
 
 </Project>

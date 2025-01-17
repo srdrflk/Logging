@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\logging\\logging\\brainstormsessions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|solutionrelative:brainstormsessions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\logging\\logging\\brainstormsessions\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|solutionrelative:brainstormsessions\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|solutionrelative:brainstormsessions\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\logging\\logging\\brainstormsessions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|solutionrelative:brainstormsessions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|c:\\users\\serdar_filik\\desktop\\dotnetbasicmentorprojects\\logging\\logging\\brainstormsessions\\infrastructure\\efstormsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC03A86-DF15-420D-9EAB-EAE1C86B5988}|BrainstormSessions\\BrainstormSessions.csproj|solutionrelative:brainstormsessions\\infrastructure\\efstormsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,33 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoggingTests.cs",
-              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
-              "RelativeDocumentMoniker": "BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
-              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
-              "RelativeToolTip": "BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAA4wFAAAABlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:27:45.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
-              "RelativeToolTip": "BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T20:16:26.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BrainstormSessions\\Views\\Shared\\_Layout.cshtml",
@@ -129,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StormSessionViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\ViewModels\\StormSessionViewModel.cs",
               "RelativeDocumentMoniker": "BrainstormSessions\\ViewModels\\StormSessionViewModel.cs",
@@ -142,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IdeaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\ViewModels\\IdeaViewModel.cs",
               "RelativeDocumentMoniker": "BrainstormSessions\\ViewModels\\IdeaViewModel.cs",
@@ -155,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SessionController.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Controllers\\SessionController.cs",
               "RelativeDocumentMoniker": "BrainstormSessions\\Controllers\\SessionController.cs",
@@ -168,20 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BrainstormSessions\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Controllers\\HomeController.cs",
               "RelativeToolTip": "BrainstormSessions\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T20:15:45.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BrainstormSessions\\Views\\Home\\Index.cshtml",
@@ -207,7 +181,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "LoggingTests.cs",
+              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
+              "RelativeDocumentMoniker": "BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
+              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
+              "RelativeToolTip": "BrainstormSessions.Test\\UnitTests\\LoggingTests.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAA4wFAAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:27:45.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Program.cs",
+              "RelativeDocumentMoniker": "BrainstormSessions\\Program.cs",
+              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Program.cs",
+              "RelativeToolTip": "BrainstormSessions\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:42:27.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeToolTip": "BrainstormSessions\\Views\\Shared\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T20:16:26.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IdeasController.cs",
               "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Api\\IdeasController.cs",
               "RelativeDocumentMoniker": "BrainstormSessions\\Api\\IdeasController.cs",
@@ -229,19 +242,6 @@
               "ViewState": "AQIAACAAAAAAAAAAAAAgwCgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T19:59:00.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Program.cs",
-              "RelativeDocumentMoniker": "BrainstormSessions\\Program.cs",
-              "ToolTip": "C:\\Users\\Serdar_Filik\\Desktop\\DotNetBasicMentorProjects\\Logging\\Logging\\BrainstormSessions\\Program.cs",
-              "RelativeToolTip": "BrainstormSessions\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T19:42:27.889Z",
               "EditorCaption": ""
             }
           ]
